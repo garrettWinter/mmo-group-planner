@@ -2,7 +2,7 @@ import React from 'react';
 
 const Page2 = () => {
     return(
-        <p>Page 2</p>
+        <p>Search Groups Page</p>
     )
 }
 
