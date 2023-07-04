@@ -1,10 +1,10 @@
 import React from 'react';
 
-const Page2 = () => {
+const GroupSearch = () => {
     return(
         <p>Search Groups Page</p>
     )
 }
 
 
-export default Page2;
+export default GroupSearch;

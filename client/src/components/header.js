@@ -8,16 +8,16 @@ export default function Header( {currentPage, handlePageChange} ) {
             <ul>
                 <li>
                     <a
-                    href='#Page1'
-                    onClick={() => handlePageChange('Page1')}
+                    href='#CharacterSearch'
+                    onClick={() => handlePageChange('CharacterSearch')}
                     >
                     Search Characters
                     </a>
                 </li>
                 <li>
                 <a
-                    href='#Page2'
-                    onClick={() => handlePageChange('Page2')}
+                    href='#GroupSearch'
+                    onClick={() => handlePageChange('GroupSearch')}
                     >
                     Search Groups
                     </a>
@@ -27,7 +27,7 @@ export default function Header( {currentPage, handlePageChange} ) {
                     href='#Page3'
                     onClick={() => handlePageChange('Page3')}
                     >
-                    Your Groups
+                    Your Groups **UPDATE PATH**
                     </a>
                 </li>
                 <li>
@@ -35,7 +35,7 @@ export default function Header( {currentPage, handlePageChange} ) {
                     href='#Page4'
                     onClick={() => handlePageChange('Page4')}
                     >
-                    Create Group
+                    Create Group **UPDATE PATH**
                     </a>
                 </li>
             </ul>
